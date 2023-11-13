@@ -1,0 +1,26 @@
+{
+    "name": "ryxo/framework",
+    "description": "A lightweight and fast PHP framework designed for sprinting through development.",
+    "autoload": {
+        "psr-4": {
+            "Ryxo\\": "src/"
+        },
+        "files": [
+            "src/utils.php"
+        ]
+    },
+    "keywords": [
+        "ryxo",
+        "framework"
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "authors": [
+        {
+            "name": "Gyanendra Baghel",
+            "email": "gyanendrabaghel633@gmail.com"
+        }
+    ],
+    "license": "MIT"
+}
